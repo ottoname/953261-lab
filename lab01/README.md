@@ -20,6 +20,12 @@ Then open <http://localhost:3000> and <http://localhost:3000/api/me>.
 
 _Write 2–3 sentences in your own words: what happens between typing a URL and seeing the page?_
 
+i learn that how to write in cmd and commit into the gid hub
+
+
 ## AI-use statement
 
 _Did you use an AI tool in this lab? If yes, which one and for what (e.g., "ChatGPT to explain a Git error message"). If no, write "No AI tools used."_
+
+
+no ,just my own critical thinking when i was codeing.
