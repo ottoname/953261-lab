@@ -65,6 +65,10 @@ export function withDiscount(item, percent) {
 // orderTotal(orders[0], menu) → 160   (2 × 45 + 1 × 70)
 export function orderTotal(order, menu) {
   // TODO
+  return order.items.reduce((sum, entry)=>{
+      const item = findItem(menu, entry.menuId);
+      return sum + (item ? item.price * entry.qty : 0);
+  })
 }
 
 // Task 8 — map + reduce   (this is quiz Q10 again!)
